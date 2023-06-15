@@ -1,0 +1,31 @@
+.scroll2Top {
+    display: flex;
+
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+}
+
+.scroll2Top button {
+    display: flex;
+    padding: 15px 15px 15px 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    background-color: #409d6e;
+}
+.scroll2Top button:hover {
+    padding: 14px 14px 14px 14px;
+}
+
+.scroll2Top img {
+    width: 19px;
+    height: 19px;
+    justify-content: center;
+    align-items: center;
+    filter: invert(100%) sepia(8%) saturate(0%) hue-rotate(75deg)
+        brightness(106%) contrast(110%);
+    user-select: none;
+}

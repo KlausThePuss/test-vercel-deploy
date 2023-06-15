@@ -1,0 +1,143 @@
+.gpt3__cta-content {
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(
+        90deg,
+        rgba(183, 109, 231, 1) 0%,
+        rgba(243, 151, 105, 1) 100%
+    );
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(
+        90deg,
+        rgba(183, 109, 231, 1) 0%,
+        rgba(243, 151, 105, 1) 100%
+    );
+
+    /* opera 11.10+ */
+    background: -o-linear-gradient(
+        90deg,
+        rgba(183, 109, 231, 1) 0%,
+        rgba(243, 151, 105, 1) 100%
+    );
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F39769', endColorstr='#B76DE7', GradientType=0 );
+
+    /* ie 10+ */
+    background: -ms-linear-gradient(
+        90deg,
+        rgba(183, 109, 231, 1) 0%,
+        rgba(243, 151, 105, 1) 100%
+    );
+
+    /* global 94%+ browsers support */
+    background: linear-gradient(
+        90deg,
+        rgba(183, 109, 231, 1) 0%,
+        rgba(243, 151, 105, 1) 100%
+    );
+
+    font-family: var(--font-family);
+    display: flex;
+    padding: 2rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 5rem 4rem 5rem;
+    flex-direction: row;
+}
+
+.gpt3__cta-content_xd {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.gpt3__cta-content_xd h1 {
+    font-size: 14px;
+    font-weight: 500;
+
+    color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.gpt3__cta-content_xd h1:hover {
+    text-shadow: 0px 0px 4px #fff;
+}
+.gpt3__cta-content_xd p {
+    font-size: 22px;
+
+    line-height: 35px;
+    margin: 1rem 0 0 0;
+    font-weight: 800;
+    color: #ffffff;
+}
+.gpt3__cta-content_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 2rem;
+}
+
+.gpt3__cta-content_button button {
+    padding: 0.6rem 1.3rem 0.6rem 1.3rem;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--font-family);
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+.gpt3__cta-content_button button:hover {
+    background-color: #222222;
+}
+.gpt3__cta-content_button button:active {
+    background-color: #eee;
+    color: #000;
+}
+@media screen and (max-width: 1054px) {
+    .gpt3__cta-content {
+        margin: 2rem 3rem 2rem 3em;
+    }
+    .gpt3__cta-content_button button {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 948px) {
+    .gpt3__cta-content {
+        padding: 1.5rem 2rem 1.5rem 2rem;
+    }
+}
+@media screen and (max-width: 686px) {
+    .gpt3__cta-content {
+        flex-direction: column;
+    }
+    .gpt3__cta-content_button button {
+        margin: 0;
+    }
+    .gpt3__cta-content_button {
+        margin: 1rem 0 0 0;
+    }
+    .gpt3__cta-content_xd {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 550px) {
+    .gpt3__cta-content {
+        margin: 0.4rem 1.5rem 2rem 1.5rem;
+    }
+}
+@media screen and (max-width: 472px) {
+    .gpt3__cta-content_xd p {
+        font-size: 21px;
+
+        line-height: 35px;
+    }
+}
